@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: lightyellow;
+}
+
+h1 {
+  font-family: "Patrick Hand", cursive;
+  color: darkblue;
+  align-content: center;
+}
+
+h3 {
+  font-family: "Patrick Hand", cursive;
+  color: darkblue;
+  align-content: center;
+}
+
+h4 {
+  font-family: "Patrick Hand", cursive;
+  color: darkblue;
+  align-content: center;
+}
+
+p {
+  font-family: "Patrick Hand", cursive;
+  color: darkblue;
+  align-content: center;
+}
+
+.line {
+  height: 6px;
+  background-color: #000;
+  width: 70px;
+  margin: 8px auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Life In the Building_mainDiv {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  border: 1px solid #c7c7c7;
+}
+
+.Life In the Building_mainDiv img {
+  width: 100%;
+  height: 300px;
+}
+
+.Life In the Building_mainDiv hr {
+  width: 100%;
+}
+
+.Life In the Building_mainDiv h3,
+.Life In the Building_mainDiv h4 {
+  margin-left: 20px;
+}
+
+.movie_head {
+  font-size: 20px;
+  padding: 6px 22px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  display: inline-block;
+}
+
+.movie_head i {
+  float: right;
+}
+
+.movie_text span {
+  color: #ff7700;
+}
+
+.environment_li {
+  margin-top: 13px;
+}
+
+.environment_li h4 {
+  border-bottom: 1px solid white;
+  padding: 8px;
+}
+
+.environment_li img {
+  width: 20%;
+  height: 300px;
+}
+
+.modal-content {
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.p-modal {
+  margin-top: 10px;
+}
+
+.img_modal {
+  display: inline-block;
+}
